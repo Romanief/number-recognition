@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 * {
-  @apply bg-neutral-900 border border-white text-white text-center
+  @apply bg-neutral-900 text-white text-center
 }
 
 button {
-  @apply w-full mt-5 h-10 hover:bg-gray-900/70
+  @apply w-full mt-5 h-10 hover:bg-gray-900/70 border-white border
 }
 
 canvas {
-  @apply  mx-auto aspect-square w-[400px]
+  @apply  mx-auto aspect-square w-[400px] border border-white
 }
 
 #app {
-  @apply w-screen h-screen flex flex-col justify-center
+  @apply w-screen h-screen flex flex-col justify-center border-0
 }
 
 #title {
